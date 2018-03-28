@@ -1,5 +1,5 @@
 <?php
-/*
+/**
 Plugin Name: _Wholesale
 Plugin URI: https://
 Description: Add Tax ID field to WooCommerce Registration, Account, and Checkout. If Tax ID is set, remove taxes from cart and checkout.
