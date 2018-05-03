@@ -14,7 +14,7 @@ require( dirname( __FILE__ ) . '/includes/-tax-id.php' );
 
 
 /**
- * Remove taxes at checkout it Tax ID is entered.
+ * Remove taxes at checkout if Tax ID is entered.
  */
 function taxexempt_checkout_update_order_review( $post_data ) {
 
