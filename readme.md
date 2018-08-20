@@ -1,17 +1,18 @@
 # Wholesaler Tax ID for WooCommerce 
 
-Contributors: WolfEsq <br>
-Requires at least: 3.0 <br>
-Tested up to: 4.9.8 <br>
-Requires PHP: 5.2 <br>
-Stable tag: 1.0.1 <br>
-License: GPL 2 <br>
+![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.2-8892BF.svg?style=flat-square)
+![GitHub license](https://img.shields.io/badge/license-GPL_2-blue.svg)
 
-Adds a Tax ID field to WooCommerce Registration, Account, and Checkout.
+Contributors: WolfEsq  
+Requires at least: 4.0  
+Tested up to: 4.9.8  
+Requires PHP: 5.6  
+Stable tag: 1.0.1  
+License: GPL 2+  
 
 ## Description
 
-Adds a Tax ID field to WooCommerce Registration, Account, and Checkout. If Tax ID is set, remove taxes from cart and checkout. If the Tax ID is not set, it will display a notice allowing the logged in user to enter a Tax ID or create an account to enter a Tax ID.
+This WordPress plugin adds a Tax ID field to WooCommerce Registration, Account, and Checkout. If a Tax ID is set, it removes taxes from cart and checkout. If the Tax ID is not set, it will display a notice prompting the logged-in user to enter a Tax ID. If the user is not logged in, the user will be prompted to log in or create an account to enter a Tax ID.
 
 ## Installation
 Upload the ```wholesaler-taxes``` folder to the ```/wp-content/plugins/``` directory then activate through the Plugins dashboard in WordPress.
